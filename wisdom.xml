@@ -6,21 +6,33 @@
 
   <project
     path="device/samsung/p205"
-    name="xuanyayi/android_device_samsung_p205"
+    name="xuanyayi/android_device_samsung_wisdom"
     remote="github-full"
-    revision="lineage-20-p205" />
+    revision="lineage-20" />
 
   <project
     path="device/samsung/universal7904-common"
     name="xuanyayi/android_device_samsung_universal7904-common"
     remote="github-full"
-    revision="lineage-20-p205" />
+    revision="lineage-20" />
+
+  <project
+    path="vendor/samsung/p205"
+    name="xuanyayi/proprietary_vendor_samsung_wisdom"
+    remote="github-full"
+    revision="lineage-20" />
+
+  <project
+    path="vendor/samsung/universal7904-common"
+    name="xuanyayi/proprietary_vendor_samsung_universal7904-common"
+    remote="github-full"
+    revision="lineage-20" />
 
   <project
     path="kernel/samsung/universal7904"
     name="xuanyayi/android_kernel_samsung_universal7904"
     remote="github-full"
-    revision="lineage-20-p205" />
+    revision="lineage-20" />
 
   <project
     path="device/samsung_slsi/sepolicy"
@@ -49,6 +61,12 @@
   <project
     path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
     name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
+    remote="github-full"
+    revision="lineage-20" />
+
+  <project
+    path="patches/samsung/wisdom"
+    name="xuanyayi/android_patches_samsung_wisdom"
     remote="github-full"
     revision="lineage-20" />
 </manifest>
