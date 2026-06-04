@@ -5,7 +5,7 @@
     fetch="https://github.com/" />
 
   <project
-    path="device/samsung/p205"
+    path="device/samsung/wisdom"
     name="xuanyayi/android_device_samsung_wisdom"
     remote="github-full"
     revision="lineage-20" />
@@ -17,7 +17,7 @@
     revision="lineage-20" />
 
   <project
-    path="vendor/samsung/p205"
+    path="vendor/samsung/wisdom"
     name="xuanyayi/proprietary_vendor_samsung_wisdom"
     remote="github-full"
     revision="lineage-20" />
