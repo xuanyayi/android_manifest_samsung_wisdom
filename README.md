@@ -34,3 +34,22 @@ source build/envsetup.sh
 lunch lineage_wisdom-userdebug
 mka bacon
 ```
+
+## Recovery Source
+
+The ROM device tree ships a validated prebuilt Lineage Recovery image at:
+
+```text
+device/samsung/wisdom/prebuilt/recovery.img
+```
+
+The source and rebuild recipe for that recovery image are included by this
+manifest at:
+
+```text
+recovery/samsung/p205_lineage_recovery
+```
+
+See `recovery/samsung/p205_lineage_recovery/README.md` if you want to rebuild
+the recovery image itself. Normal ROM builds do not need this step because the
+validated image is already included by the device tree.

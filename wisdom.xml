@@ -69,4 +69,10 @@
     name="xuanyayi/android_patches_samsung_wisdom"
     remote="github-full"
     revision="lineage-20" />
+
+  <project
+    path="recovery/samsung/p205_lineage_recovery"
+    name="xuanyayi/p205-lineage-recovery"
+    remote="github-full"
+    revision="main" />
 </manifest>
