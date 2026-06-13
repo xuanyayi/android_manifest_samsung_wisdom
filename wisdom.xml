@@ -35,6 +35,12 @@
     revision="lineage-20" />
 
   <project
+    path="packages/apps/PhhIms"
+    name="xuanyayi/ims-for-wisdom"
+    remote="github-full"
+    revision="main" />
+
+  <project
     path="device/samsung_slsi/sepolicy"
     name="LineageOS/android_device_samsung_slsi_sepolicy"
     remote="github-full"
