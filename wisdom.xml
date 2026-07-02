@@ -59,6 +59,54 @@
     revision="lineage-23.2" />
 
   <project
+    path="hardware/samsung_slsi-linaro/config"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_config"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/codec2"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_codec2"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/exynos"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_exynos"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/exynos5"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/graphics"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_graphics"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/interfaces"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/openmax"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_openmax"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
+    path="hardware/samsung_slsi-linaro/sgpu"
+    name="LineageOS/android_hardware_samsung_slsi-linaro_sgpu"
+    remote="github-full"
+    revision="lineage-23.2" />
+
+  <project
     path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"
     name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
     remote="github-full"
@@ -76,9 +124,4 @@
     remote="github-full"
     revision="lineage-23.2" />
 
-  <project
-    path="recovery/samsung/p205_lineage_recovery"
-    name="xuanyayi/p205-lineage-recovery"
-    remote="github-full"
-    revision="main" />
 </manifest>
